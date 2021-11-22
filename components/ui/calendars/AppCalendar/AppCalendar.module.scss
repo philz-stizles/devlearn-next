@@ -1,0 +1,50 @@
+.app-calendar {
+  position: relative;
+  padding: 20px;
+  margin: 0px 0px 20px 0px;
+  background: #ffffff;
+  border-radius: 3px;
+  font-size: 1em;
+  // direction: ltr;
+  text-align: left;
+  box-shadow: 0 0 0 1px rgb(0 0 0 / 5%), 0 1px 1px rgb(0 0 0 / 5%);
+
+  &:after {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 0px;
+    clear: both;
+    overflow: hidden;
+  }
+
+  &__toolbar {
+    margin-bottom: 1em;
+    text-align: center;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .left {
+    }
+
+    .center {
+      display: inline-block;
+    }
+
+    .right {
+    }
+  }
+
+  &__view {
+    table {
+      width: 100%;
+      box-sizing: border-box;
+      table-layout: fixed;
+      border-collapse: collapse;
+      border-spacing: 0;
+      font-size: 1em;
+    }
+  }
+}

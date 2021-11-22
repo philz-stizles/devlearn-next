@@ -8,11 +8,20 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "12.0.4",
+    "axios": "^0.24.0",
+    "chartist": "^0.11.4",
+    "js-cookie": "^3.0.1",
+    "next": "^12.0.4",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-chartist": "^0.14.4",
+    "react-dom": "17.0.2",
+    "react-html-renderer": "^0.3.3",
+    "recharts": "^2.1.6",
+    "sass": "^1.43.4",
+    "universal-cookie": "^4.0.4"
   },
   "devDependencies": {
+    "@types/js-cookie": "^3.0.1",
     "@types/node": "16.11.9",
     "@types/react": "17.0.35",
     "eslint": "7",
